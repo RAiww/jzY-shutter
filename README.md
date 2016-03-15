@@ -88,18 +88,51 @@ CSS：
 ```
 
 
-設計自己的輪播：
+
+### 設計自己的輪播：
 
 ```js
 //移動方法函數
-jz.shutter.move.myMoveFuncName = function(){...};
+jz.shutter.move.myMoveFuncName = function( jArgu ){...};
 
 //主框布置
-jz.shutter.vision.myVisionFuncName = function(){...};
+jz.shutter.vision.myVisionFuncName = function( jArgu ){...};
 
 //選框布置
-jz.shutter.cue.myCueFuncName = function(){...};
+jz.shutter.cue.myCueFuncName = function( jArgu ){...};
 ```
+
+
+jArgu 為傳遞必要資訊的物件陣列 Object，其值包含：
+
+  - HElemMain： 父框物件
+  - HElemVision： 主框物件
+  - HElemCue： 選框物件
+  - mainSize： 父框的長和高
+  - lengthChild： 輪播項目總計
+  - moveFunc： 登記移動動畫函數
+  - order： 當前輪播項目代號
+  - speed： 動畫執行和間隔時間
+  - anim： 動畫執行的設定
+  - timer： 登記計時器函數
+
+
+```js
+//使用內部函數
+let jShutterFactory = jz.shutter.factory;
+
+//清除其所佔據空間
+jShutterFactory = null;
+```
+
+
+jShutterFactory 為內部函數的物件陣列 Object，其值包含：
+
+  - move： 移動方法函數陣列
+  - vision： 主框布置函數陣列
+  - cue： 選框布置函數陣列
+  - actMoveFunc： 執行動畫函數
+  - timer： 計時器函數陣列
 
 
 
