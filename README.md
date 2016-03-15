@@ -160,8 +160,12 @@ CSS：
 
 動畫：
 
+  - slideLine 線性平行滑動
+
 
 主框：
+
+  - slideLine 線性平行滑動
 
 
 選框：
@@ -172,4 +176,8 @@ CSS：
 
 
 ### 相關套件：
+
+  - [jzQs](https://github.com/RAiww/jzY-qs)
+  - [jzQs_multiMouseMove](https://github.com/RAiww/jzY-qs_multiMouseMove)
+  - [jzQs_animate](https://github.com/RAiww/jzY-qs_animate)
 

@@ -11,6 +11,16 @@
 
 /* 主框 */
 
+.cJzVision.esSlideLine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0s ease-in;
+}
+.cJzVision.esSlideLine > * {
+	float: left;
+}
+
 
 /* 選框 */
 
