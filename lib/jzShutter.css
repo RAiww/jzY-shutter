@@ -14,3 +14,22 @@
 
 /* 選框 */
 
+.cJzCue.esPoint {
+    position: absolute;
+    right: 22px;
+    bottom: 16px;
+}
+.cJzCue.esPoint > i {
+    width: 12px;
+    height: 12px;
+    margin: 1px 4px;
+    float: left;
+    background: #E6DEDE;
+    border: 2px #333 solid;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(50,50,120,0.6);
+}
+.cJzCue.esPoint > i:hover {
+    background: #333;
+}
+
