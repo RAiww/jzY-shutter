@@ -4,7 +4,7 @@
 
 > 文件： 百葉窗 jzShutter<br />
 > 作者： RAiww <ra@iww.twbbs.org> (http://ra.iww.twbbs.org/)<br />
-> 版本： v0.0.0<br />
+> 版本： v1.3.2<br />
 > 授權： MIT @license: [ra.iww.twbbs.org/ffish/MIT_License](http://ra.iww.twbbs.org/ffish/MIT_License)
 
 
@@ -20,6 +20,7 @@
  * lib
    * jzShutter.css
    * jzShutter.js
+ * README.md
 
 
 
