@@ -33,6 +33,10 @@
   - jVisionFuncName： 主框布置名稱
   - jCueFuncName： 選框布置名稱
   - speed： 設定輪播速度
+  - anim： 設定動畫
+    - true： 輪播
+    - false： 無輪播
+    - once： 輪播一次
 
 
 
@@ -51,7 +55,8 @@ HTML：
 ```html
 <div data-jz-shutter="--jVisionFuncName--"
     data-jzy-cue="--jCueFuncName--"
-    data-jzy-speed="--speed--">
+    data-jzy-speed="--speed--"
+    data-jzy-anim="--anim--">
     <!-- 主框 -->
     <div class="cJzVision">
         <!-- 輪播項目... -->
